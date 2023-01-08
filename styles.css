@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
     display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -14,7 +16,7 @@ body {
     background-color: #1F2937;
 }
 
-nav {
+.header nav {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -22,7 +24,13 @@ nav {
     margin: 16px 200px;
 }
 
-.links {
+.header nav .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header nav .links {
     list-style: none;
     display: flex;
     align-items: center;
@@ -31,7 +39,14 @@ nav {
     padding: 0;
 }
 
-.container {
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .container {
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -39,7 +54,7 @@ nav {
     margin: 80px 200px;
 }
 
-.header-content {
+.header .content {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -49,7 +64,21 @@ nav {
     font-size: 18px;
 }
 
-.image {
+.header h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header button {
+    width: 100px;
+    border: 0;
+    background-color: #3882F6;
+    border-radius: 0.5em;
+    padding: 8px;
+    color: #E5E7EB;
+}
+
+.header .image {
     display: flex;
     flex: 1;
     justify-content: center;
@@ -57,33 +86,50 @@ nav {
     height: 100%;
 }
 
-.image p {
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.information-title {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.information-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.information-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.information-image .image {
+    border: 3px solid #3882F6;
+    border-radius: 1em;
+    width: 160px;
+    height: 160px;
+    padding: 16px;
+}
+
+.information-image p {
     align-self: center;
-}
-
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bolder;
-}
-
-h1 {
-    font-size: 48px;
-    color: #F9FAF8;
-}
-
-a {
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.header-signup {
-    width: 100px;
-    border: 0;
-    background-color: #3882F6;
-    border-radius: 0.5em;
-    padding: 8px;
-    color: #E5E7EB;
 }
