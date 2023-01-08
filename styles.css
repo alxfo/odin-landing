@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -88,12 +87,15 @@ body {
     display: flex;
     flex: 1;
     justify-content: center;
-    background-color: slategray;
-    height: 100%;
+    align-items: center;
+    background-color: dimgray;
+    height: 200px;
+    color: #F9FAF8;
 }
 
 .information {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
 }
@@ -153,6 +155,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
 .quote .container {
@@ -172,6 +175,7 @@ body {
 
 .signup {
     background-color: #fff;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,4 +211,15 @@ body {
     width: 110px;
     height: 30px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    text-align: center;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
