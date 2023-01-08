@@ -73,12 +73,15 @@ body {
 }
 
 .header button {
-    width: 100px;
+    width: 140px;
+    height: 35px;
     border: 0;
+    font-size: 16px;
     background-color: #3882F6;
     border-radius: 0.5em;
     padding: 8px;
     color: #E5E7EB;
+    font-weight: bold;
 }
 
 .header .image {
@@ -108,6 +111,7 @@ body {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .information h2 {
@@ -118,6 +122,8 @@ body {
 .information-image-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 55vw;
 }
 
 .information-image {
@@ -131,13 +137,16 @@ body {
 .information-image .image {
     border: 3px solid #3882F6;
     border-radius: 1em;
-    width: 96px;
-    height: 96px;
+    width: 160px;
+    height: 160px;
     padding: 16px;
+    box-sizing: border-box;
 }
 
 .information-image p {
     align-self: center;
+    margin-top: 8px;
+    width: 160px;
 }
 
 .quote {
