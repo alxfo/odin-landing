@@ -19,14 +19,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 16px 200px;
 }
 
 .links {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ nav {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 80px 200px;
 }
 
 .header-content {
@@ -44,16 +44,27 @@ nav {
     flex: 1;
     flex-direction: column;
     color: #E5E7EB;
+    gap: 8px;
+    margin-right: 8px;
+    font-size: 18px;
 }
 
 .image {
     display: flex;
     flex: 1;
     justify-content: center;
+    background-color: slategray;
+    height: 100%;
+}
+
+.image p {
+    align-self: center;
 }
 
 .logo {
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 h1 {
@@ -63,5 +74,16 @@ h1 {
 
 a {
     font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-signup {
+    width: 100px;
+    border: 0;
+    background-color: #3882F6;
+    border-radius: 0.5em;
+    padding: 8px;
     color: #E5E7EB;
 }
