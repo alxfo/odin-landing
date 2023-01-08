@@ -14,6 +14,7 @@ body {
     flex: 1;
     flex-direction: column;
     background-color: #1F2937;
+    align-items: center;
 }
 
 .header nav {
@@ -21,7 +22,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 16px 200px;
+    margin: 16px 0px;
+    width: 70vw;
 }
 
 .header nav .logo {
@@ -51,7 +53,8 @@ body {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin: 80px 200px;
+    margin: 80px 0px;
+    width: 70vw;
 }
 
 .header .content {
@@ -89,15 +92,24 @@ body {
 .information {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 32px;
 }
 
-.information-title {
+.information .container {
     display: flex;
-    flex: auto;
+    flex-direction: column;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    margin: 0 200px;
+    margin: 80px 0;
+    width: 70vw;
+}
+
+.information-title {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .information h2 {
@@ -107,18 +119,14 @@ body {
 
 .information-image-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 32px;
 }
 
 .information-image {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex: 1;
-    max-width: 130px;
     text-align: center;
 }
 
@@ -141,7 +149,8 @@ body {
 }
 
 .quote .container {
-    margin: 80px 300px;
+    margin: 80px 0px;
+    width: 70vw;
 }
 
 .quote1 {
