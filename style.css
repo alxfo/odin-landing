@@ -19,6 +19,10 @@ div {
     justify-content: space-between;
 }
 
+.hero {
+    margin: 60px;
+}
+
 .hero-text {
     display: flex;
     flex-direction: column;
