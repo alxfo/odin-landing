@@ -11,10 +11,21 @@ body {
 
 div {
     display: flex;
+    width: 60%;
 }
 
 .header {
-    width: 60%;
     margin: 10px;
     justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image {
+    height: 200px;
+    width: 400px;
+    background-color: grey;
 }
