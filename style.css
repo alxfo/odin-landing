@@ -23,6 +23,7 @@ div {
 
 .header {
     justify-content: center;
+    background-color: #1f2937;
 }
 
 .header .content {
@@ -31,11 +32,29 @@ div {
 
 .hero {
     justify-content: center;
+    background-color: #1f2937;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #F9FaF8;
 }
 
 .hero-image {
@@ -44,6 +63,14 @@ div {
     background-color: grey;
     align-items: center;
     justify-content: center;
+}
+
+.hero button{
+    width: 80px;
+    height: 25px;
+    border-radius: 10%;
+    color: #e5e7eb;
+    background-color: #3882f6;
 }
 
 .info {
