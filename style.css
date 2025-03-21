@@ -25,6 +25,10 @@ div {
     justify-content: center;
 }
 
+.header .content {
+    margin: 10px;
+}
+
 .hero {
     justify-content: center;
 }
