@@ -35,9 +35,11 @@ div {
 }
 
 .hero-image {
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 700px;
     background-color: grey;
+    align-items: center;
+    justify-content: center;
 }
 
 .info {
