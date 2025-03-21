@@ -48,6 +48,15 @@ div {
     justify-content: center;
 }
 
+.quote .content {
+    flex-direction: column;
+}
+
+.attribution {
+    display: flex;
+    justify-content: right;
+}
+
 .signup {
     justify-content: center;
 }
