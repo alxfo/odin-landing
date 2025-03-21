@@ -1,26 +1,32 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 
 div {
     display: flex;
-    width: 60%;
+    width: 100%;
 }
 
-.header {
-    margin: 10px;
+.content {
+    width: 60%;
     justify-content: space-between;
 }
 
+.header {
+    justify-content: center;
+}
+
 .hero {
-    margin: 60px;
+    justify-content: center;
 }
 
 .hero-text {
@@ -32,4 +38,21 @@ div {
     height: 200px;
     width: 400px;
     background-color: grey;
+}
+
+.info {
+    justify-content: center;
+}
+
+.quote {
+    justify-content: center;
+}
+
+.signup {
+    justify-content: center;
+}
+
+.footer {
+    margin-top: auto;
+    justify-content: center;
 }
