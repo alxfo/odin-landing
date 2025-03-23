@@ -89,6 +89,7 @@ div {
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 40px;
+    width: 65%;
 }
 
 .info-header {
@@ -99,8 +100,7 @@ div {
 }
 
 .info-wrapper {
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-between;
 }
 
 .info-card {
@@ -109,8 +109,8 @@ div {
 }
 
 .info-card-text {
- font-size: 12px;
- color: grey;
+    font-size: 12px;
+    color: grey;
 }
 
 .info-image {
@@ -122,15 +122,28 @@ div {
 
 .quote {
     justify-content: center;
+    background-color: #e5e7eb;
 }
 
 .quote .content {
     flex-direction: column;
+    margin: 80px;
+    gap: 8px;
+    width: 65%;
+}
+
+.quote-text  {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .attribution {
     display: flex;
     justify-content: right;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .signup {
