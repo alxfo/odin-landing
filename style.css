@@ -70,11 +70,12 @@ div {
 }
 
 .hero button{
-    width: 80px;
+    width: 100px;
     height: 25px;
-    border-radius: 10%;
+    border-radius: 5px;
     color: #e5e7eb;
     background-color: #3882f6;
+    font-weight: bold;
 }
 
 .info {
@@ -156,10 +157,21 @@ div {
     padding: 20px 80px;
     margin: 80px;
     border-radius: 5px;
+    align-items: center;
 }
 
 .signup-text-wrapper {
     flex-direction: column;
+}
+
+.signup-button {
+    height: 25px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-weight: bold;
+    background-color: #3882f6;
 }
 
 .footer {
