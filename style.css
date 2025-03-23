@@ -100,7 +100,8 @@ div {
 }
 
 .info-wrapper {
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
 .info-card {
@@ -129,7 +130,7 @@ div {
     flex-direction: column;
     margin: 80px;
     gap: 8px;
-    width: 65%;
+    width: 60%;
 }
 
 .quote-text  {
