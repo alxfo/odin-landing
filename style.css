@@ -152,5 +152,8 @@ div {
 
 .footer {
     margin-top: auto;
+    background-color: #1F2937;
+    color: #F9FaF8;
+    padding: 24px;
     justify-content: center;
 }
