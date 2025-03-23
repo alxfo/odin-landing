@@ -58,8 +58,11 @@ div {
     color: #F9FaF8;
 }
 
+.hero .content {
+    margin: 60px;
+}
+
 .hero-image {
-    height: 150px;
     width: 700px;
     background-color: grey;
     align-items: center;
