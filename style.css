@@ -151,6 +151,17 @@ div {
     justify-content: center;
 }
 
+.signup .content {
+    background-color: #3882F6;
+    padding: 20px 80px;
+    margin: 80px;
+    border-radius: 5px;
+}
+
+.signup-text-wrapper {
+    flex-direction: column;
+}
+
 .footer {
     margin-top: auto;
     background-color: #1F2937;
