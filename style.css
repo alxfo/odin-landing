@@ -54,7 +54,7 @@ div {
 }
 
 .secondary {
-    font-size: 18px;
+    font-size: 14px;
     color: #F9FaF8;
 }
 
@@ -63,7 +63,7 @@ div {
 }
 
 .hero-image {
-    width: 700px;
+    width: 800px;
     background-color: grey;
     align-items: center;
     justify-content: center;
@@ -79,6 +79,45 @@ div {
 
 .info {
     justify-content: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+.info .content {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.info-wrapper {
+    justify-content: center;
+    gap: 60px;
+}
+
+.info-card {
+    flex-direction: column;
+    max-width: 126px;
+}
+
+.info-card-text {
+ font-size: 12px;
+ color: grey;
+}
+
+.info-image {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
 }
 
 .quote {
