@@ -30,6 +30,10 @@ div {
     margin: 10px;
 }
 
+a {
+    margin: 0 8px;
+}
+
 .hero {
     justify-content: center;
     background-color: #1f2937;
@@ -43,6 +47,7 @@ div {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
