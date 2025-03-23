@@ -71,6 +71,7 @@ div {
 .hero button{
     width: 100px;
     height: 25px;
+    border: 0px;
     border-radius: 5px;
     color: #e5e7eb;
     background-color: #3882f6;
